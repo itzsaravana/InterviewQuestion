@@ -1,4 +1,22 @@
 Spring boot features 
 Java 8 features 
-Tyes of functional interface (supplier,consumer,functional,pridicate)
+Tyes of functional interface (supplier,consumer,functional,pridicate) https://www.tutorialspoint.com/what-are-the-in-built-functional-interfaces-in-java
 How to read the class path property file (@propertysource)
+Microservice
+service discovery
+Registery 
+     -> Unique name for service register the new service @EnableEurekaServer
+Discovery 
+     -> look up,finding  api and address @EnableEurekaClient, @EnableFeignClients
+Loging 
+ Zipkin and sleuth
+  It is used to generate the trace id, span id and add these information to the service calls in the headers
+     trace id common for all microservice for a request
+     span id unique for each service 
+Exception 
+  @ControllerAdviser, @ExceptionHandeler
+sql and nosql
+How to call microservice intanally 
+try with resources 
+spring configuratiion
+spring bean lifecycle.
